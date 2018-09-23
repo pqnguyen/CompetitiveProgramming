@@ -4,7 +4,7 @@
 * @Github https://github.com/pqnguyen
 */
 
-#include <bits/stdc++.h>
+#include <stdc++.h>
 
 using namespace std;
 
