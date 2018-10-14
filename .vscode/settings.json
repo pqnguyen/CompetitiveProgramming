@@ -23,6 +23,8 @@
         "random": "cpp",
         "iosfwd": "cpp",
         "memory": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "iostream": "cpp",
+        "algorithm": "cpp"
     }
 }
