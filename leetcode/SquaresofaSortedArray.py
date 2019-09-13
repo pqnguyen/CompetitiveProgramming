@@ -35,3 +35,4 @@ class Solution:
             res.append(A[bBegin])
             bBegin += 1
         return res
+
