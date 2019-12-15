@@ -1,5 +1,5 @@
 # Cracking the coding interview - 2.2
-# Implement an algorithm to find the kth-to-last element of a single linked list
+# Implement an algorithm-cpp to find the kth-to-last element of a single linked list
 
 
 class Node:

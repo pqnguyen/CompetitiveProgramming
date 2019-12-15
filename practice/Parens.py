@@ -1,5 +1,5 @@
 # Cracking the coding interview - 8.9
-# Parens: Implement an algorithm to print all valid (Le., properly opened and closed) combinations
+# Parens: Implement an algorithm-cpp to print all valid (Le., properly opened and closed) combinations
 # of n pairs of parentheses.
 # EXAMPLE
 # Input: 3

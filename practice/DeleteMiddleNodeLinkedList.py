@@ -1,5 +1,5 @@
 # Cracking the coding interview - 2.3
-# Implement an algorithm to delete middle node of a single linked list, given only access to that node
+# Implement an algorithm-cpp to delete middle node of a single linked list, given only access to that node
 class Node:
     def __init__(self, val):
         self.value = val
