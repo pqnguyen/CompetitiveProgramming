@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(algorithm_cpp)
+project(console)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
-
-add_executable(algorithm_cpp
-        main.cpp)
+add_executable(console main.cpp)
+add_executable(leetcode leetcode.cpp)

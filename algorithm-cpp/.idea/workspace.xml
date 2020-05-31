@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="console" targetName="leetcode" />
+      <config projectName="console" targetName="console" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05198683-9b1b-4ee9-aae0-49ed33bf9568" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="clangdShowErrors" value="false" />
+    <option name="clangTidyViaClangd" value="false" />
+    <option name="formatViaClangd" value="false" />
+    <option name="clangWarnings" value="-Wno-unused-variable,-Werror=implicit-function-declaration,-Wshadow,-Wno-shadow-field-in-constructor-modified,-Wno-shadow-ivar,-Wno--Wc++17-extensions" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1XkuLJYU44NH7uy9Qmapm32y4Pd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="language.cpp.clangd" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/algo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.leetcode">
+    <configuration name="console" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="console" TARGET_NAME="console" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="console" RUN_TARGET_NAME="console">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="console" TARGET_NAME="leetcode" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="console" RUN_TARGET_NAME="leetcode">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.console" />
+      <item itemvalue="CMake Application.leetcode" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05198683-9b1b-4ee9-aae0-49ed33bf9568" name="Default Changelist" comment="" />
+      <created>1581602356086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581602356086</updated>
+      <workItem from="1581602359324" duration="2709000" />
+      <workItem from="1589878638199" duration="72000" />
+      <workItem from="1589899971725" duration="114000" />
+      <workItem from="1589900105282" duration="117000" />
+      <workItem from="1589900580999" duration="195000" />
+      <workItem from="1589900857344" duration="1377000" />
+      <workItem from="1590384142027" duration="1976000" />
+      <workItem from="1590762397622" duration="515000" />
+      <workItem from="1590763251374" duration="1896000" />
+      <workItem from="1590807974343" duration="2742000" />
+      <workItem from="1590810851284" duration="15046000" />
+      <workItem from="1590912761765" duration="1923000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590810289285">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="304" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.972@0.23.1680.972" timestamp="1590810289285" />
+    <state x="984" y="229" key="#xdebugger.evaluate" timestamp="1590848743514">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="984" y="229" key="#xdebugger.evaluate/0.23.1680.972@0.23.1680.972" timestamp="1590848743514" />
+    <state width="1638" height="323" key="GridCell.Tab.0.bottom" timestamp="1590896621650">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.0.bottom/0.23.1680.972@0.23.1680.972" timestamp="1590896621650" />
+    <state width="1638" height="323" key="GridCell.Tab.0.center" timestamp="1590896621649">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.0.center/0.23.1680.972@0.23.1680.972" timestamp="1590896621649" />
+    <state width="1638" height="323" key="GridCell.Tab.0.left" timestamp="1590896621648">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.0.left/0.23.1680.972@0.23.1680.972" timestamp="1590896621648" />
+    <state width="1638" height="323" key="GridCell.Tab.0.right" timestamp="1590896621649">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.0.right/0.23.1680.972@0.23.1680.972" timestamp="1590896621649" />
+    <state width="1638" height="323" key="GridCell.Tab.1.bottom" timestamp="1590896621650">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.1.bottom/0.23.1680.972@0.23.1680.972" timestamp="1590896621650" />
+    <state width="1638" height="323" key="GridCell.Tab.1.center" timestamp="1590896621650">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.1.center/0.23.1680.972@0.23.1680.972" timestamp="1590896621650" />
+    <state width="1638" height="323" key="GridCell.Tab.1.left" timestamp="1590896621650">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.1.left/0.23.1680.972@0.23.1680.972" timestamp="1590896621650" />
+    <state width="1638" height="323" key="GridCell.Tab.1.right" timestamp="1590896621650">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state width="1638" height="323" key="GridCell.Tab.1.right/0.23.1680.972@0.23.1680.972" timestamp="1590896621650" />
+    <state x="256" y="133" key="SettingsEditor" timestamp="1590850701372">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="256" y="133" key="SettingsEditor/0.23.1680.972@0.23.1680.972" timestamp="1590850701372" />
+    <state x="519" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1589900583708">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="519" y="342" key="com.intellij.ide.util.TipDialog/0.23.1680.972@0.23.1680.972" timestamp="1589900583708" />
+  </component>
+</project>
