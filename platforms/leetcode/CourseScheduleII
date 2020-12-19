@@ -1,0 +1,50 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#define FastIO ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
+#define FileIO freopen("input.txt", "rt", stdin); freopen("output.txt", "wt", stdout)
+
+class Solution {
+public:
+    vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites) {
+        vector<int> graph[numCourses];
+        for (vector<int> &edge : prerequisites) {
+            int u = edge[0], v = edge[1];
+            graph[v].push_back(u);
+        }
+
+        vector<bool> visited(numCourses), trace(numCourses);
+        vector<int> res;
+
+        bool isCycle = false;
+        for (int u = 0; u < numCourses; u++) {
+            if (!visited[u] && !isCycle) {
+                isCycle = topologySort(graph, u, visited, res, trace);
+            }
+        }
+        if (isCycle) { return {}; }
+        reverse(res.begin(), res.end());
+        return res;
+    }
+
+    bool topologySort(vector<int> graph[], int u, vector<bool> &visited, vector<int> &res, vector<bool> &trace) {
+        visited[u] = trace[u] =true;
+        for (int v : graph[u]) {
+            if (!visited[v]) {
+                if (topologySort(graph, v, visited, res, trace)) { return true; }
+            }
+            if (trace[v]) { return true; }
+        }
+        trace[u] = false;
+        res.push_back(u);
+        return false;
+    }
+};
+
+int main() {
+    FastIO;
+    FileIO;
+    Solution sol;
+    return 0;
+}
