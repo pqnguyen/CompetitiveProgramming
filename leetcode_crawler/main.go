@@ -339,10 +339,40 @@ func main() {
 	}
 	wg.Wait()
 
+	leetcodeBriefs = Filter(leetcodeBriefs, FilterByDifficulty("medium"))
+
 	sort.Sort(ByDifficulty(leetcodeBriefs))
 	for _, brief := range leetcodeBriefs {
 		brief.Print()
 	}
+}
+
+type FilterBy func(brief LeetCodeBrief) bool
+
+func FilterByDifficulty(difficulty string) FilterBy {
+	return func(brief LeetCodeBrief) bool {
+		if strings.EqualFold(difficultyName[brief.Difficulty], difficulty) {
+			return true
+		}
+		return false
+	}
+}
+
+func Filter(briefs []LeetCodeBrief, filters ...FilterBy) []LeetCodeBrief {
+	var leetcodeBriefs []LeetCodeBrief
+	for _, brief := range briefs {
+		isInclude := true
+		for _, filter := range filters {
+			if filter(brief) == false {
+				isInclude = false
+				break
+			}
+		}
+		if isInclude {
+			leetcodeBriefs = append(leetcodeBriefs, brief)
+		}
+	}
+	return leetcodeBriefs
 }
 
 var difficultyName = map[int]string{
