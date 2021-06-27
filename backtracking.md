@@ -322,7 +322,7 @@ public boolean isPalindrome(String s, int low, int high){
 } 
 ```
 
-## Genarate
+## Generate
 ```java
 class Solution {
     public List<String> generateParenthesis(int n) {

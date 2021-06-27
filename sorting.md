@@ -1,11 +1,14 @@
 # Sorting
 
 ## Index
+
 + [Merge Sort](#Merge-sort)
 + [Quick Sort](#Quick-sort)
 + [Heap Sort](#Heap-sort)
++ [Patience Sort](#Patience-sort)
 
 ## Merge sort
+
 ```c++
 void merge_sort(int a[], int length) {
     merge_sort(a, 0, length-1);
@@ -45,21 +48,18 @@ void merge(int a[], int left_low, int left_high, int right_low, int right_high)
 ```
 
 ## Quick sort
-```c++
-int partition ( int A[],int start ,int end) {
-    int i = start + 1;
-    int piv = A[start] ;            //make the first element as pivot element.
-    for(int j =start + 1; j <= end ; j++ )  {
-    /*rearrange the array by putting elements which are less than pivot
-       on one side and which are greater that on other. */
 
-          if ( A[ j ] < piv) {
-                 swap (A[ i ],A [ j ]);
-            i += 1;
+```c++
+int partition(int A[], int start, int end) {
+    int wall = start;
+    for (int i = start; i < end; i++) {
+        if (A[i] < A[end]) {
+            swap(A[i], A[end]);
+            wall++;
         }
-   }
-   swap ( A[ start ] ,A[ i-1 ] ) ;  //put the pivot element in its proper place.
-   return i-1;                      //return the position of the pivot
+    }
+    swap(A[wall], A[end]);
+    return wall;
 }
 
 void quick_sort ( int A[ ] ,int start , int end ) {
@@ -78,7 +78,7 @@ int rand_partition ( int A[ ] , int start , int end ) {
     //chooses position of pivot randomly by using rand() function .
      int random = start + rand( )%(end-start +1 ) ;
 
-      swap ( A[random] , A[start]) ;        //swap pivot with 1st element.
+      swap ( A[random] , A[end]) ;        //swap pivot with last element.
      return partition(A,start ,end) ;       //call the above partition function
 }
 ```
@@ -133,3 +133,8 @@ void heapSort(int arr[], int n)
    }
 }
 ```
+
+## Patience sort
+
++ [Theory](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/LongestIncreasingSubsequence.pdf)
++ [Implementation](https://rosettacode.org/wiki/Sorting_algorithms/Patience_sort#Go)
